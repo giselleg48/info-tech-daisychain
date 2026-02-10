@@ -1,8 +1,8 @@
 # Local Development
 ## Set up Google Cloud credentials
-There are a (few ways to do this)[https://googleapis.dev/python/google-api-core/latest/auth.html], but the most straightforward might be through the Google Cloud CLI:
+There are a [few ways to do this](https://googleapis.dev/python/google-api-core/latest/auth.html), but the most straightforward might be through the Google Cloud CLI:
 ```
-sudo snap install google-cloud-cli --classic
+sudo snap install google-cloud-cli --classic (or brew install --cask google-cloud-sdk)
 ```
 then
 ```
@@ -24,4 +24,5 @@ pipenv shell
 3. Run
 ```
 python3 test.py
+
 ```
